@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Angular!</title>
+  <script src="/bower_components/angular/angular.min.js"></script>
+  <script src="/module.js"></script>
+  <script src="/directives/myTable.js"></script>
+  <script src="/controllers/mainCtrl.js"></script>
+</head>
+<body ng-app='newApp'>
+  <h1>Angular!</h1>
+  
+  <div ng-controller='mainCtrl'>
+    <my-table list='bands'></my-table>
+  </div>
+
+</body>
+</html>
